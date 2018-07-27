@@ -5,7 +5,7 @@
 
 ## 使用方法
 ### 1. 微信测试号申请
-<p>因为是微信授权，所以必须要在微信环境下使用，首先安装微信开发者工具，然后在<b>[微信公众平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)</b>申请接口测试号,登陆后可以查看自己的appId和appsecret信息，将JS接口安全域名修改为127.0.0.1:8800即本机地址，将体验接口权限表里的网页服务的网页授权获取用户基本信息修改为127.0.0.1:8800，最后扫码关注该测试号即可,如下图所示</p>
+因为是微信授权，所以必须要在微信环境下使用，首先安装微信开发者工具，然后在<br />[微信公众平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)申请接口测试号,登陆后可以查看自己的appId和appsecret信息，将JS接口安全域名修改为127.0.0.1:8800即本机地址，将体验接口权限表里的网页服务的网页授权获取用户基本信息修改为127.0.0.1:8800，最后扫码关注该测试号即可,如下图所示
 ![](https://github.com/wangfengyuan/wxAuthorize/raw/master/images/appId信息.PNG)
 
 ![](https://github.com/wangfengyuan/wxAuthorize/raw/master/images/修改回调页面域名.PNG)
